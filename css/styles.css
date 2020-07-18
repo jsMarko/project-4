@@ -5,15 +5,35 @@
 }
 
 body {
-   text-align: center;
 }
 
-h1 {
+header {
+   height: 140px;
+   background-color: #3a4272;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header h1 {
    font-size: 4.4rem;
-   margin-top: 40px;
+   color: #fff;
+   margin-left: 50px;
 }
 
-h2 {
-   font-size: 2.4rem;
-   margin-top: 1.4rem;
+header ul {
+   margin-right: 50px;
+   display: flex;
+}
+
+header li + li {
+   margin-left: 20px;
+}
+
+header ul li a {
+   display: block;
+   color: #fff;
+   padding: 10px 15px;
+   border: 1px solid #f9f9f9;
+   font-size: 1.2rem;
 }
