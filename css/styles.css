@@ -27,7 +27,7 @@ header ul {
 }
 
 header li + li {
-   margin-left: 20px;
+   margin-left: 35px;
 }
 
 header ul li a {
@@ -36,4 +36,10 @@ header ul li a {
    padding: 10px 15px;
    border: 1px solid #f9f9f9;
    font-size: 1.2rem;
+   user-select: none;
+   transition-duration: 0.4s;
+}
+
+header ul li a:hover {
+   background-color: #8a1d1d;
 }
