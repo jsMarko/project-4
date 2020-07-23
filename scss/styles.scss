@@ -1,11 +1,13 @@
 // ***** Variables ********
+$white: #fff;
+$shade-light: #f9f9f9;
+
 $base-bg: #3a4272;
 $base-bg-dark: darken($base-bg, 35%);
 $base-bg-light: lighten($base-bg, 25%);
 
 $main-bg-color: #f5f5f5;
-$shade-light: #f9f9f9;
-$anchorhover-color: #b03c3c;
+$anchor-hover-color: #b03c3c;
 
 * {
    margin: 0;
@@ -47,7 +49,7 @@ header {
          transition-duration: 0.4s 0.8s;
       }
       & a:hover {
-         background-color: $anchorhover-color;
+         background-color: $anchor-hover-color;
          border-radius: 1rem;
       }
    }
