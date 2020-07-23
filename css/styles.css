@@ -25,10 +25,10 @@ header ul {
   margin-right: 50px;
   display: flex;
 }
-header li + li {
+header ul li + li {
   margin-left: 35px;
 }
-header a {
+header ul a {
   display: block;
   color: #fff;
   padding: 10px 15px;
@@ -39,7 +39,7 @@ header a {
   transition-property: background-color, border-radius;
   transition-duration: 0.4s 0.8s;
 }
-header a:hover {
+header ul a:hover {
   background-color: #b03c3c;
   border-radius: 1rem;
 }
