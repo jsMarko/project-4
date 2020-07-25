@@ -5,6 +5,9 @@
 /*       VARIABLES       */
 /* ===================== */
 /* ====================== */
+/*  GRID COLOR VARIABLES  */
+/* ====================== */
+/* ====================== */
 /*    BUTTONS VARIABLES   */
 /* ====================== */
 /* ====================== */
@@ -508,38 +511,38 @@ a {
 }
 
 .default {
-  background-color: #83e7fd;
+  background-color: #51ddfc;
 }
 .default:hover {
-  background-color: #1fd3fb;
+  background-color: #83e7fd;
 }
 
 .success {
-  background-color: #89d9a0;
+  background-color: #63cc81;
 }
 .success:hover {
-  background-color: #3ebe63;
+  background-color: #89d9a0;
 }
 
 .error {
-  background-color: #ec9fa3;
+  background-color: #e4747a;
 }
 .error:hover {
-  background-color: #dc4951;
+  background-color: #ec9fa3;
 }
 
 .warning {
-  background-color: #fea088;
+  background-color: #fd7856;
 }
 .warning:hover {
-  background-color: #fc5024;
+  background-color: #fea088;
 }
 
 .info {
-  background-color: #ae9ed1;
+  background-color: #917bc1;
 }
 .info:hover {
-  background-color: #7458b1;
+  background-color: #ae9ed1;
 }
 
 /* ===================== */
