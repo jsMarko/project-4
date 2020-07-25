@@ -22,12 +22,12 @@ a {
 
 .headline {
    &-primary {
-      color: #58e1c1;
+      color: $viking;
       margin-left: 10px;
    }
 
    &-secondary {
-      font-weight: 300;
+      font-weight: $fnt-w3;
       color: #777;
    }
 }
