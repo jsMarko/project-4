@@ -510,21 +510,36 @@ a {
 .default {
   background-color: #83e7fd;
 }
+.default:hover {
+  background-color: #1fd3fb;
+}
 
 .success {
   background-color: #89d9a0;
+}
+.success:hover {
+  background-color: #3ebe63;
 }
 
 .error {
   background-color: #ec9fa3;
 }
+.error:hover {
+  background-color: #dc4951;
+}
 
 .warning {
   background-color: #fea088;
 }
+.warning:hover {
+  background-color: #fc5024;
+}
 
 .info {
   background-color: #ae9ed1;
+}
+.info:hover {
+  background-color: #7458b1;
 }
 
 /* ===================== */
