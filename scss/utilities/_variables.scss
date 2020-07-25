@@ -15,10 +15,13 @@ $french-lilac: #deb2ee;
 /*    BUTTONS VARIABLES   */
 /* ====================== */
 
-$error: #e4757a;
-$info: #927bc1;
-$success: #63cc82;
-$warn: #fd7856;
+$buttons: (
+   "default": #51ddfc,
+   "success": #63cc81,
+   "error": #e4747a,
+   "warning": #fd7856,
+   "info": #917bc1,
+);
 
 /* ====================== */
 /*  FONT VARIABLES  */

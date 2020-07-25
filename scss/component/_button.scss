@@ -12,22 +12,24 @@
    border-radius: 5px;
 }
 
-.default {
-   background-color: #51ddfc;
-}
+@include btn-key-value;
 
-.error {
-   background-color: #e4757a;
-}
+// .default {
+//    background-color: #51ddfc;
+// }
 
-.info {
-   background-color: #927bc1;
-}
+// .error {
+//    background-color: #e4757a;
+// }
 
-.success {
-   background-color: #63cc82;
-}
+// .info {
+//    background-color: #927bc1;
+// }
 
-.warning {
-   background-color: #fd7856;
-}
+// .success {
+//    background-color: #63cc82;
+// }
+
+// .warning {
+//    background-color: #fd7856;
+// }

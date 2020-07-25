@@ -1,0 +1,7 @@
+@mixin btn-key-value {
+   @each $name, $color in $buttons {
+      .#{$name} {
+         background-color: lighten($color, 10%);
+      }
+   }
+}
